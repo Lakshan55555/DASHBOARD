@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Show Current Time</title>
+  </head>
+  <body>
+<script>
+      function showTime() {
+        const currentTime = new Date();
+        const hours = currentTime.getHours();
+        const minutes = currentTime.getMinutes();
+        const seconds = currentTime.getSeconds();
+        const timeString = `${hours}:${minutes}:${seconds}`;
+        document.getElementById("currentTime").innerHTML = timeString;
+      }
+        <iframe width="1980" height="1080" frameborder="0" scrolling="no"src="https://onedrive.live.com/embed?resid=88D8EC25D47236BA%21114&authkey=%21AKFkyVzcQd4PUeA&em=2&wdAllowInteractivity=False" allowfullscreen="true"></iframe>
+    
+</script>
+  </body>
+</html>
